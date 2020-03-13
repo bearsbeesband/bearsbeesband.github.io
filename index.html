@@ -5,11 +5,31 @@
 			body {
 				font-family: helvetica;
 				text-align: center;
-				font-size: 2em;
+			}
+
+			#top {
+				width: 600px;
+			}
+
+			@media only screen and (max-width: 600px) {
+				#top {
+					width: 100%;
+				}
+			}
+
+			.row-icons img {
+				width: 32px;
+				padding: 5px;
 			}
 		</style>
 	</head>
 	<body>
-		<img src="bummers.jpg" />
+		<img id="top" src="bummers.jpg" />
+		<h5>The Digital Home of The Bears & The Bees</h5>
+		<div class="row-icons">
+			<a href="https://twitter.com/bearsbeesband"><img src="twitter.png" /></a>
+			<a href="https://instagram.com/bearsbeesband"><img src="instagram.png" /></a>
+			<a href="https://facebook.com/bearsandbeesband"><img src="facebook.png" /></a>
+		</div>
 	</body>
 </html>

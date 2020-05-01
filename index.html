@@ -9,6 +9,31 @@
 				text-align: center;
 			}
 
+			#banner {
+				position: fixed;
+				margin: 0 auto;
+				top: 0px;
+				left: 0px;
+				width: 100%;
+				background-color: orange;
+				text-align: center;
+			}
+
+			#banner-content { 
+				margin: 0 auto; 
+				padding: 10px;
+			}
+
+			#banner-content a {
+				text-decoration: none;
+				color: white;
+				font-weight: bold;
+			}
+
+			#banner-content a:hover {
+				text-decoration: underline;
+			}
+
 			#top {
 				width: 600px;
 			}
@@ -41,54 +66,65 @@
 				margin-top: 10px;
 				margin-bottom: 15px;
 			}
+
+			#main {
+				margin-top: 50px;
+			}
 		</style>
 	</head>
 	<body>
-		<p id="slug">You <strong><u>do</u></strong> have to be lonely at</p>
-		<img id="top" src="bummers.jpg" />
-		<h5>The Digital Home of The Bears & The Bees</h5>
-		<div class="icons">
-			<div class="row">
-				<div class="col">
-					<a href="https://open.spotify.com/artist/34LFhLPIB4kWajma4YWNel?si=DQ4be972Q8qVrL-UIeBLHA">
-						<img src="spotify.png" />
-					</a>
-				</div>
-				<div class="col">
-					<a href="https://music.apple.com/us/artist/the-bears-and-the-bees/1447727820">
-						<img src="applemusic.png" />
-					</a>
-				</div>
-				<div class="col">
-					<a href="https://thebearsandthebees.bandcamp.com/">
-						<img src="bandcamp.png" />
-					</a>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col">
-					<a href="https://twitter.com/bearsbeesband">
-						<img src="twitter.png" />
-					</a>
-				</div>
-				<div class="col">
-					<a href="https://instagram.com/bearsbeesband">
-						<img src="instagram.png" />
-					</a>
-				</div>
-				<div class="col">
-					<a href="https://facebook.com/bearsandbeesband">
-						<img src="facebook.png" />
-					</a>
-				</div>
-				<div class="col">
-					<a href="https://www.patreon.com/join/bearsbeesband?">
-						<img src="patreon.png" />
-					</a>
-				</div>
+		<div id="banner">
+			<div id="banner-content">
+				<a href="https://thebearsandthebees.bandcamp.com/album/bummersonly-com">Get the new single on bandcamp now!</a>
 			</div>
 		</div>
-		<p><a href="signup.html">Newsletter</a></p>
-		<p><a href="https://thebearsandthebees.bandcamp.com/merch">Merch</a></p>
+		<div id="main">
+			<p id="slug">You <strong><u>do</u></strong> have to be lonely at</p>
+			<img id="top" src="bummers.png" />
+			<h5>The Digital Home of The Bears & The Bees</h5>
+			<div class="icons">
+				<div class="row">
+					<div class="col">
+						<a href="https://open.spotify.com/artist/34LFhLPIB4kWajma4YWNel?si=DQ4be972Q8qVrL-UIeBLHA">
+							<img src="spotify.png" />
+						</a>
+					</div>
+					<div class="col">
+						<a href="https://music.apple.com/us/artist/the-bears-and-the-bees/1447727820">
+							<img src="applemusic.png" />
+						</a>
+					</div>
+					<div class="col">
+						<a href="https://thebearsandthebees.bandcamp.com/">
+							<img src="bandcamp.png" />
+						</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<a href="https://twitter.com/bearsbeesband">
+							<img src="twitter.png" />
+						</a>
+					</div>
+					<div class="col">
+						<a href="https://instagram.com/bearsbeesband">
+							<img src="instagram.png" />
+						</a>
+					</div>
+					<div class="col">
+						<a href="https://facebook.com/bearsandbeesband">
+							<img src="facebook.png" />
+						</a>
+					</div>
+					<div class="col">
+						<a href="https://www.patreon.com/join/bearsbeesband?">
+							<img src="patreon.png" />
+						</a>
+					</div>
+				</div>
+			</div>
+			<p><a href="signup.html">Newsletter</a></p>
+			<p><a href="https://thebearsandthebees.bandcamp.com/merch">Merch</a></p>
+		</div>
 	</body>
 </html>
